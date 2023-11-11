@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreditCard</title>
+</head>
+<body>
+    <main class="container">
+        <section class="ui">
+            <div class="container-left">
+                <form id="Credit-card">
+                    <div class="number">
+                        <label>Card Number</label>
+                        <input type="text" 
+                        name="card-number" 
+                        id="card-number" 
+                        maxlength="19" 
+                        placeholder="4444 6666 7777 8888" 
+                        required>
+                    </div>
+                    <div class="name">
+                        <label>Holder</label>
+                        <input type="text" 
+                        name="name-text" 
+                        id="name-text" 
+                        maxlength="30" 
+                        placeholder="MUKHINA MARINA" 
+                        required>
+                    </div>
+                    <div class="info">
+                        <div class="expiration-container">
+                        <label>Valid-thru</label>
+                        <input type="text" 
+                        name="valid-thru-text" 
+                        id="Valid-thru-text" 
+                        maxlength="5" 
+                        placeholder="05/24" 
+                        required>
+                        </div>
+                        <div class="cvv-container">
+                            <label>CVV</label>
+                        <input type="text" 
+                        name="cvv-text" 
+                        id="cvv-text" 
+                        maxlength="3" 
+                        placeholder="123" 
+                        required>
+                        </div>
+                    </div>
+                    <input type="submit" value="ADD" id="add">
+                </form>
+            </div>
+            <div class="container-right">
+                <div class="card">
+                    <div class="intern">
+                        <img class="wifi" src="img/wifi.png" alt="NFC">
+                        <div class="card-number">
+                            <div class="number-vl">1234 5555 7777 9999</div>
+                        </div>
+                    <div class="card-holder">
+                        <label>Holder</label>
+                        <div class="name-vl">MUKHINA MARINA</div>
+                    </div>
+                    <div class="card-info">
+                        <div class="exp">
+                            <label>Valid-thru</label>
+                            <div class="expiration-vl">05/24</div>
+                        </div>
+                        <div class="cvv">
+                            <label>CVV</label>
+                            <div class="cvv-vl">123</div>
+                        </div>
+                    </div>
+                    <img class="chip" src="img/chip.png" alt="chip">
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+    
+</body>
+</html>
